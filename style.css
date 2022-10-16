@@ -1,0 +1,399 @@
+/* fonts */
+@font-face {
+    font-family: "GilroyLight";
+    src: url("fonts/Gilroy-Light.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("fonts/Gilroy-ExtraBold.otf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* page */
+.page {
+    font-size: 18px;
+    font-family: "GilroyLight";
+    background-color: #fff;
+}
+.container {
+    width: 100%;
+    max-width: 943.61px;
+    margin: 0 auto;
+}
+
+/* nav */
+.header {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 32.5px 0;
+    border-bottom: 1px solid #828282;
+    line-height: 22px;
+}
+
+.nav-link {
+    color: #828282;
+    text-decoration: none;
+    font-family: "GilroyBold";
+}
+
+.black {
+    color: black;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* second-nav */
+
+.second-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 39px;
+    padding-bottom: 30px;
+    align-items: end;
+}
+
+.second-nav p{
+    margin: 0;
+}
+
+.name {
+    width: 100%;
+    max-width: 123px;
+    font-size: 47px;
+    color: #070707;
+    font-family: "GilroyBold";
+    line-height: 59px;
+}
+
+.text {
+    line-height: 22px;
+    width: 100%;
+    max-width: 220px;
+}
+
+.writing-mode {
+    transform: rotate(-90deg);
+    position: relative;
+    top: -25px;
+    line-height: 20px;
+    left: 24px;
+}
+
+.inline {
+    display: inline;
+    font-family: "GilroyBold";
+}
+
+.language {
+    text-decoration: none;
+    color: #828282;
+    font-size: 16px;
+
+}
+
+.active {
+    font-family:"GilroyBold";
+    color: black;
+}
+
+.figure {
+    margin: 0;
+}
+
+/* main */
+.main {
+    position: relative;
+}
+
+.main-container {
+    width: 100%;
+    margin-top:104px;
+    background-color: #F6F6F6;
+    height: 506px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 485px;
+    text-align: center;
+    height: 218px;
+    margin: 0 auto;
+}
+
+.main-h1 {
+    color: #070707;
+    font-family: "GilroyBold";
+    text-align: center;
+    line-height: 42px;
+    padding-top: 120px;
+    padding-bottom: 18px;
+    font-size: 34px;
+}
+
+/* skills */
+
+.img-text {
+    display: flex;
+    max-width: 943px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+.img-text p {
+    color: #828282;
+    font-size: 14px;
+    font-family: "GilroyBold";
+    text-align: center;
+}
+
+.ps {
+    width: 100%;
+    max-width: 90px;
+}
+
+.ai {
+    width: 100%;
+    max-width: 90px;
+}
+
+.ae {
+    width: 100%;
+    max-width: 90px;
+}
+
+.figma {
+    width: 100%;
+    max-width: 59px;
+}
+
+.container-skills {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.skills {
+    background-color: #fff;
+    height: 610px;
+}
+
+.skills-h1 {
+    color: #070707;
+    font-family: "GilroyBold";
+    text-align: center;
+    margin: 0;
+    padding-top: 91px;
+    line-height: 42px;
+    padding-bottom: 69px;
+    margin-right: 0;
+}
+
+.skills p{
+    text-align: center;
+    margin-bottom: 83px;
+}
+
+.skills-img {
+    display: flex;
+    max-width: 943px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.stars {
+    width: 100%;
+    max-width:1100px;
+    margin: 0 auto;
+}
+
+.ps-stars {
+    display: inline;
+    margin-right: 125px;
+    margin-left: 40px;
+}
+
+.ai-stars {
+    display: inline;
+    margin-right: 125px;
+}
+
+.ae-stars {
+    display: inline;
+    margin-right: 110px;
+}
+.figma-stars {
+    display: inline;
+}
+
+.star {
+    margin-right: 9px;
+}
+
+/* portfolio */
+.portfolio {
+    background-color: #F6F6F6;
+    height: 2253px;
+}
+
+.port-h1 {
+    color: #070707;
+
+    font-family: "GilroyBold";
+    font-size: 34px;
+    line-height: 42px;
+
+    text-align: center;
+    padding-top: 113px;
+    padding-bottom: 47px;
+}
+
+.woman {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.port-links {
+    text-align: center;
+    margin-bottom: 99px
+}
+
+.port-link {
+    color: #070707;
+    font-weight: 700;
+}
+
+.reebok {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.braun {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+/* contacts */
+.contacts {
+    background-color: #fff;
+    text-align: center;
+}
+
+.contacts-h1 {
+    color: Black;
+    font-family: "GilroyBold";
+    margin-top: 114px;
+    margin-bottom: 20px;
+}
+
+.contacts-content {
+    width: 100%;
+    max-width: 275px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/* button */
+
+
+.button {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    width: 180px;
+    padding: 11px 0;
+    border-radius: 10px;
+    margin-bottom: 87px;
+    text-decoration: none;
+}
+
+/* images */
+.footer-img {
+    width: 100%;
+    max-width: 342px;
+    margin: 0 auto;
+    margin-bottom: 46px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images a {
+    max-height: 40px;
+}
+
+
+
+/* last-content */
+.last-text {
+    width: 100%;
+    max-width: 243px;
+    margin: 0 auto;
+    margin-bottom: 123px;
+}
+
+.last-content {
+    color: #828282;
+    text-align: center;
+}
+
+@media(max-width:1075px) {
+    .stars {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    .group-stars {
+        width: 100%;
+        max-width: 170px;
+        margin: 0;
+    }
+
+    .skills-img {
+        margin-left:50px;
+        margin-right: 50px;
+    }
+    .img-text {
+        margin-left:50px;
+        margin-right: 50px;
+    }
+}
+
+@media(max-width:767px) {
+    
+}
